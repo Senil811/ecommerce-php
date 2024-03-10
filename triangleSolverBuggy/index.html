@@ -1,0 +1,87 @@
+<!--
+PROG8170 - Software Quality Assurance Techniques
+Created by: Baljeet Bilkhu
+
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Triangle Solver</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/starter-template/">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pcmystyle.css">
+
+    <!--    scripts-->
+    <script src="js/lib/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/lib/jquery.validate.js"></script>
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+
+    <!--   MY scripts-->
+    <script src="js/jsfile.js"></script>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1003.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Triangle Solvent</a>
+
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container" style="padding-top: 5em">
+        <h1 style="text-align: center;">Solve!</h1>
+        <div class="m-4">
+            <p>Welcome to the Triangle Solver. <br>This app will determine the type of rectangle as well as the area and
+                perimeter based on
+                the values entered.</p>
+        </div>
+        <form id="registrationForm">
+            <div class="form-group">
+                <div class="card" style="">
+                    <div class="card-header">
+                        <h2>Triangle Characteristics</h2>
+                    </div>
+
+                    <div style="padding: 10px">
+                        <div class="form-group">
+                            <label for="firstSide">First Side (in m)</label>
+                            <input type="number" class="form-control" id="firstSide" name="firstSide" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="secondSide">Second Side (in m)</label>
+                            <input type="number" class="form-control" id="secondSide" name="secondSide">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="thirdSide">Third Slide (in m)</label>
+                            <input type="text" class="form-control" id="thirdSide" name="thirdSide">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <a type="button" class="btn btn-primary" id="btnSubmit" onclick="Register()" style="color: white">Submit</a>
+            <br><br>
+            <small>&copy; 2022 Baljeet Bilkhu</small>
+        </form>
+    </main>
+</body>
+
+
+</html>
